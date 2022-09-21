@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Payment Gateway Integration</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="navbar">
+                <img align="right" src="donate.jpg" width="200" height="200" >   
+                <img class="image" src="./logo.jpg" alt="Help Poor Peoples">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="navlinks">
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="first">
+                <h1 class="first-heading">This mission provides selfless service to the humanity. We highly appreciate your benign and generous DONATIONS. <br> <span class="text">TO HELP SOMEONE.</span></h1>
+                <h3 class="first-subtext">When you donate to our general funding, we prioritize by investing in the most dire causes first. This way, you can be sure your contribution is going where it's needed most.</h3>
+                <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_KJmJllZf2RtMoh/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
+                    <script>
+                      (function(){
+                        var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                        if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                        s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                        rzp && rzp.init && rzp.init()}})();
+                    </script>
+                  </div>
+            </section>
+        </main>
+    </body>
+</html>
